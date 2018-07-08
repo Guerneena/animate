@@ -8,12 +8,12 @@ import android.support.v7.widget.RecyclerView;
 import com.hitherejoe.animate.R;
 import com.hitherejoe.animate.ui.adapter.AnimationApisAdapter;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity {
 
-    @Bind(R.id.recycler_animation_apis)
+    @BindView(R.id.recycler_animation_apis)
     RecyclerView mAnimationApisRecycler;
 
     @Override

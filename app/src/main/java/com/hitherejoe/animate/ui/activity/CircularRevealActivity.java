@@ -21,19 +21,19 @@ import com.hitherejoe.animate.ui.fragment.CircularRevealedFragment;
 import com.hitherejoe.animate.R;
 import com.hitherejoe.animate.util.ApiLevelHelper;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class CircularRevealActivity extends BaseActivity {
 
-    @Bind(R.id.fab_reveal)
+    @BindView(R.id.fab_reveal)
     FloatingActionButton mRevealButton;
 
-    @Bind(R.id.frame_container)
+    @BindView(R.id.frame_container)
     FrameLayout mFragmentContainer;
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
     private Animator mCircularReveal;

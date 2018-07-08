@@ -14,19 +14,19 @@ import android.widget.TextView;
 
 import com.hitherejoe.animate.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class SharedTransitionsActivity extends BaseActivity {
 
-    @Bind(R.id.text_shared_toolbar)
+    @BindView(R.id.text_shared_toolbar)
     RelativeLayout mRelativeView;
 
-    @Bind(R.id.text_toolbar)
+    @BindView(R.id.text_toolbar)
     TextView mToolbarView;
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
     @Override

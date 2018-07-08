@@ -23,31 +23,31 @@ import android.widget.Spinner;
 
 import com.hitherejoe.animate.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class ViewPropertyAnimatorActivity extends BaseActivity {
 
-    @Bind(R.id.check_animate_alpha)
+    @BindView(R.id.check_animate_alpha)
     CheckBox mAnimateAlphaCheck;
 
-    @Bind(R.id.check_animate_scale)
+    @BindView(R.id.check_animate_scale)
     CheckBox mAnimateScaleCheck;
 
-    @Bind(R.id.check_animate_z)
+    @BindView(R.id.check_animate_z)
     CheckBox mAnimateZCheck;
 
-    @Bind(R.id.check_animation_duration)
+    @BindView(R.id.check_animation_duration)
     CheckBox mAnimationDurationCheck;
 
-    @Bind(R.id.check_animation_delay)
+    @BindView(R.id.check_animation_delay)
     CheckBox mAnimationDelayCheck;
 
-    @Bind(R.id.fab_smile)
+    @BindView(R.id.fab_smile)
     FloatingActionButton mSmileButton;
 
-    @Bind(R.id.spinner_interpolators)
+    @BindView(R.id.spinner_interpolators)
     Spinner mAnimationInterpolatorSpinner;
 
     @Override

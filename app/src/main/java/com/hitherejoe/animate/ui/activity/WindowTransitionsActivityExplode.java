@@ -13,15 +13,15 @@ import android.view.View;
 import com.hitherejoe.animate.R;
 import com.hitherejoe.animate.ui.adapter.GridAdapter;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class WindowTransitionsActivityExplode extends BaseActivity {
 
-    @Bind(R.id.recycler_view_team)
+    @BindView(R.id.recycler_view_team)
     RecyclerView mTeamRecycler;
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
     @Override

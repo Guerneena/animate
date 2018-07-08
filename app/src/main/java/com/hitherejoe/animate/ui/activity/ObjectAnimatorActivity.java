@@ -7,12 +7,12 @@ import android.widget.AdapterViewAnimator;
 import com.hitherejoe.animate.R;
 import com.hitherejoe.animate.ui.adapter.FrameAdapter;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ObjectAnimatorActivity extends BaseActivity {
 
-    @Bind(R.id.flipper_content)
+    @BindView(R.id.flipper_content)
     AdapterViewAnimator mContentFlipper;
 
     private boolean isAnimatingUp;

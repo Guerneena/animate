@@ -8,13 +8,13 @@ import android.support.v7.widget.Toolbar;
 
 import com.hitherejoe.animate.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class WindowTransitionsActivity extends BaseActivity {
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
     @Override

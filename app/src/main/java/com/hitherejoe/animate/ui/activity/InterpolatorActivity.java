@@ -23,22 +23,22 @@ import android.widget.Spinner;
 
 import com.hitherejoe.animate.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class InterpolatorActivity extends BaseActivity {
 
-    @Bind(R.id.text_animate)
+    @BindView(R.id.text_animate)
     Button mAnimateText;
 
-    @Bind(R.id.layout_root)
+    @BindView(R.id.layout_root)
     RelativeLayout mLayoutRoot;
 
-    @Bind(R.id.spinner_interpolators)
+    @BindView(R.id.spinner_interpolators)
     Spinner mInterpolatorSpinner;
 
-    @Bind(R.id.fab_interpolator)
+    @BindView(R.id.fab_interpolator)
     FloatingActionButton mFloatingActionButton;
 
     private boolean mIsButtonAtTop;

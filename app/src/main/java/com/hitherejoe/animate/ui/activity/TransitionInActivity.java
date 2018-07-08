@@ -8,7 +8,7 @@ import android.transition.TransitionInflater;
 
 import com.hitherejoe.animate.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -22,7 +22,7 @@ public class TransitionInActivity extends BaseActivity {
     public static final String TRANSITION_EXPLODE = "EXPLODE";
     public static final String TRANSITION_EXPLODE_BOUNCE = "EXPLODE_BOUNCE";
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
     @Override

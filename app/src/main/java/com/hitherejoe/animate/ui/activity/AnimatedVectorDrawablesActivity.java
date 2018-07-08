@@ -7,16 +7,16 @@ import android.widget.ImageView;
 
 import com.hitherejoe.animate.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class AnimatedVectorDrawablesActivity extends BaseActivity {
 
-    @Bind(R.id.image_twitter_heart)
+    @BindView(R.id.image_twitter_heart)
     ImageView mTwitterHeartImage;
 
-    @Bind(R.id.image_add_remove)
+    @BindView(R.id.image_add_remove)
     ImageView mAddRemoveImage;
 
     private AnimatedVectorDrawable mAddToRemoveDrawable;
